@@ -1,0 +1,9 @@
+package io.javabrains.Repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import io.javabrains.Entity.Intern;
+
+public interface InternRepository extends JpaRepository<Intern, Integer> {
+
+}
